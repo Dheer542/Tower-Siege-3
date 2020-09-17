@@ -14,6 +14,7 @@ var score = 0;
 
 function preload(){
   polygon_img=loadImage("polygon.png");
+  getBackgroundImg();
 }
 function setup() {
   createCanvas(900,400);
